@@ -1,6 +1,5 @@
 CMakeFiles/Impetus.dir/src/engine.cpp.o: \
- /home/funky/Documents/Archetype/src/engine.cpp \
- /usr/include/stdc-predef.h \
+ /home/funky/Documents/Impetus/src/engine.cpp /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/iostream \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -154,49 +153,23 @@ CMakeFiles/Impetus.dir/src/engine.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/bits/ostream.tcc \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/istream \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/bits/istream.tcc \
- /usr/include/SDL2/SDL.h /usr/include/SDL2/SDL_main.h \
- /usr/include/SDL2/SDL_stdinc.h /usr/include/SDL2/SDL_config.h \
- /usr/include/x86_64-pc-linux-gnu/SDL2/SDL_config.h \
- /usr/include/x86_64-pc-linux-gnu/SDL2/SDL_platform.h \
- /usr/include/x86_64-pc-linux-gnu/SDL2/begin_code.h \
- /usr/include/x86_64-pc-linux-gnu/SDL2/close_code.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/stdlib.h \
- /usr/include/string.h /usr/include/strings.h /usr/include/inttypes.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/math.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/cmath \
- /usr/include/math.h /usr/include/bits/math-vector.h \
- /usr/include/bits/libm-simd-decl-stubs.h \
- /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
- /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/bits/specfun.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/limits \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/tr1/gamma.tcc \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/tr1/special_function_util.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/tr1/bessel_function.tcc \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/tr1/beta_function.tcc \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/tr1/ell_integral.tcc \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/tr1/exp_integral.tcc \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/tr1/hypergeometric.tcc \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/tr1/legendre_function.tcc \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/tr1/modified_bessel_func.tcc \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/tr1/poly_hermite.tcc \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/tr1/poly_laguerre.tcc \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/tr1/riemann_zeta.tcc \
- /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/float.h \
- /usr/include/SDL2/begin_code.h \
- /usr/include/x86_64-pc-linux-gnu/SDL2/begin_code.h \
- /usr/include/SDL2/close_code.h \
- /usr/include/x86_64-pc-linux-gnu/SDL2/close_code.h \
- /usr/include/SDL2/SDL_assert.h /usr/include/SDL2/SDL_atomic.h \
- /usr/include/SDL2/SDL_platform.h \
- /usr/include/x86_64-pc-linux-gnu/SDL2/SDL_platform.h \
- /usr/include/SDL2/SDL_audio.h /usr/include/SDL2/SDL_error.h \
- /usr/include/SDL2/SDL_endian.h /usr/include/SDL2/SDL_mutex.h \
- /usr/include/SDL2/SDL_thread.h /usr/include/SDL2/SDL_rwops.h \
- /usr/include/SDL2/SDL_clipboard.h /usr/include/SDL2/SDL_cpuinfo.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_main.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_stdinc.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_config.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_platform.h \
+ /home/funky/Documents/Impetus/include/SDL2/begin_code.h \
+ /home/funky/Documents/Impetus/include/SDL2/close_code.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_assert.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_atomic.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_audio.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_error.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_endian.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_mutex.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_thread.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_rwops.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_clipboard.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_cpuinfo.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/immintrin.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/x86gprintrin.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/ia32intrin.h \
@@ -236,6 +209,7 @@ CMakeFiles/Impetus.dir/src/engine.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/mmintrin.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/mm_malloc.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12/stdlib.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/emmintrin.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/pmmintrin.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/tmmintrin.h \
@@ -283,21 +257,40 @@ CMakeFiles/Impetus.dir/src/engine.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/amxbf16intrin.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/12/include/keylockerintrin.h \
- /usr/include/SDL2/SDL_events.h /usr/include/SDL2/SDL_video.h \
- /usr/include/SDL2/SDL_pixels.h /usr/include/SDL2/SDL_rect.h \
- /usr/include/SDL2/SDL_surface.h /usr/include/SDL2/SDL_blendmode.h \
- /usr/include/SDL2/SDL_keyboard.h /usr/include/SDL2/SDL_keycode.h \
- /usr/include/SDL2/SDL_scancode.h /usr/include/SDL2/SDL_mouse.h \
- /usr/include/SDL2/SDL_joystick.h /usr/include/SDL2/SDL_guid.h \
- /usr/include/SDL2/SDL_gamecontroller.h /usr/include/SDL2/SDL_sensor.h \
- /usr/include/SDL2/SDL_quit.h /usr/include/SDL2/SDL_gesture.h \
- /usr/include/SDL2/SDL_touch.h /usr/include/SDL2/SDL_filesystem.h \
- /usr/include/SDL2/SDL_haptic.h /usr/include/SDL2/SDL_hidapi.h \
- /usr/include/SDL2/SDL_hints.h /usr/include/SDL2/SDL_loadso.h \
- /usr/include/SDL2/SDL_log.h /usr/include/SDL2/SDL_messagebox.h \
- /usr/include/SDL2/SDL_metal.h /usr/include/SDL2/SDL_power.h \
- /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_shape.h \
- /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
- /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
- /usr/include/SDL2/SDL_misc.h /usr/include/SDL2/SDL_main.h \
- /home/funky/Documents/Archetype/src/engine.h
+ /home/funky/Documents/Impetus/include/SDL2/SDL_events.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_video.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_pixels.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_rect.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_surface.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_blendmode.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_keyboard.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_keycode.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_scancode.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_mouse.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_joystick.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_guid.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_gamecontroller.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_sensor.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_quit.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_gesture.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_touch.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_filesystem.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_haptic.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_hidapi.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_hints.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_loadso.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_log.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_messagebox.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_metal.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_power.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_render.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_shape.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_system.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_timer.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_version.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_locale.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_misc.h \
+ /home/funky/Documents/Impetus/include/SDL2/SDL_main.h \
+ /home/funky/Documents/Impetus/include/glad/glad.h \
+ /home/funky/Documents/Impetus/include/KHR/khrplatform.h \
+ /home/funky/Documents/Impetus/src/engine.h

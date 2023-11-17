@@ -19,6 +19,7 @@ endif()
 set(SOURCES
     ${PROJECT_SOURCE_DIR}/src/main.cpp
     ${PROJECT_SOURCE_DIR}/src/engine.cpp
+    ${PROJECT_SOURCE_DIR}/src/glad.c
     # Add additional source files here
 )
 
@@ -44,6 +45,7 @@ if(MSVC)
 elseif(UNIX AND NOT APPLE)
     find_package(SDL2 REQUIRED)
     target_link_libraries(Impetus PRIVATE ${SDL2_LIBRARIES})
+    target_include_directories(Impetus PRIVATE ${PROJECT_SOURCE_DIR}/include)
     target_include_directories(Impetus PRIVATE ${SDL2_INCLUDE_DIRS})
 endif()
 
