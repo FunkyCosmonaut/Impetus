@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Curly\Documents\GitHub\Impetus\build\CMakeFiles\085d8ae02cd76de12069206e95d4f28c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{88FDFE6E-1435-35BF-96C6-1B683C4A65D0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

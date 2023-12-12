@@ -1,9 +1,6 @@
 
 
-class Engine 
-{
-    public:
-        int initWindow();
-        int initOpenGL();
-        void Shutdown();
-};
+int Engine_initWindow();
+int Engine_initOpenGL();
+int Engine_Shutdown();
+

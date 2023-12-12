@@ -1,0 +1,20 @@
+^C:\USERS\CURLY\DOCUMENTS\GITHUB\IMPETUS\BUILD\CMAKEFILES\085D8AE02CD76DE12069206E95D4F28C\DIRECTORIES.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Curly/Documents/GitHub/Impetus/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CURLY\DOCUMENTS\GITHUB\IMPETUS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Curly/Documents/GitHub/Impetus -BC:/Users/Curly/Documents/GitHub/Impetus/build --check-stamp-file C:/Users/Curly/Documents/GitHub/Impetus/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

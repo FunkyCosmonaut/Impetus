@@ -1,0 +1,10 @@
+^C:\USERS\CURLY\DOCUMENTS\GITHUB\IMPETUS\BUILD\CMAKEFILES\085D8AE02CD76DE12069206E95D4F28C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Curly/Documents/GitHub/Impetus -BC:/Users/Curly/Documents/GitHub/Impetus/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Curly/Documents/GitHub/Impetus/build/Impetus.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -4,9 +4,9 @@ cmake_minimum_required(VERSION 3.10)
 # Project's name
 project(Impetus)
 
-# Use C++20
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
+# Use C standard (e.g., C99 or C11)
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD_REQUIRED ON)
 
 # Enable warnings
 if(MSVC)
@@ -16,9 +16,10 @@ else()
 endif()
 
 # Specify the source files
+# Note: Change the file extensions from .cpp to .c for C files
 set(SOURCES
-    ${PROJECT_SOURCE_DIR}/src/main.cpp
-    ${PROJECT_SOURCE_DIR}/src/engine.cpp
+    ${PROJECT_SOURCE_DIR}/src/main.c
+    ${PROJECT_SOURCE_DIR}/src/engine.c
     ${PROJECT_SOURCE_DIR}/src/glad.c
     # Add additional source files here
 )
@@ -36,7 +37,7 @@ if(MSVC)
     target_link_libraries(Impetus PRIVATE 
         ${PROJECT_SOURCE_DIR}/lib/SDL2/SDL2.lib
         ${PROJECT_SOURCE_DIR}/lib/SDL2/SDL2main.lib)
-    #throws dll in with executable
+    # Throws dll in with executable
     add_custom_command(TARGET Impetus POST_BUILD
                        COMMAND ${CMAKE_COMMAND} -E copy_if_different
                            ${PROJECT_SOURCE_DIR}/lib/SDL2/SDL2.dll

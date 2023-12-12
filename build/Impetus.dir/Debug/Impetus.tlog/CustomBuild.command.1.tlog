@@ -1,0 +1,10 @@
+^C:\USERS\CURLY\DOCUMENTS\GITHUB\IMPETUS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Curly/Documents/GitHub/Impetus -BC:/Users/Curly/Documents/GitHub/Impetus/build --check-stamp-file C:/Users/Curly/Documents/GitHub/Impetus/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

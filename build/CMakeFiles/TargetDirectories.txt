@@ -1,8 +1,5 @@
-/home/funky/Documents/Impetus/build/CMakeFiles/Impetus.dir
-/home/funky/Documents/Impetus/build/CMakeFiles/directories.dir
-/home/funky/Documents/Impetus/build/CMakeFiles/edit_cache.dir
-/home/funky/Documents/Impetus/build/CMakeFiles/rebuild_cache.dir
-/home/funky/Documents/Impetus/build/CMakeFiles/list_install_components.dir
-/home/funky/Documents/Impetus/build/CMakeFiles/install.dir
-/home/funky/Documents/Impetus/build/CMakeFiles/install/local.dir
-/home/funky/Documents/Impetus/build/CMakeFiles/install/strip.dir
+C:/Users/Curly/Documents/GitHub/Impetus/build/CMakeFiles/Impetus.dir
+C:/Users/Curly/Documents/GitHub/Impetus/build/CMakeFiles/directories.dir
+C:/Users/Curly/Documents/GitHub/Impetus/build/CMakeFiles/INSTALL.dir
+C:/Users/Curly/Documents/GitHub/Impetus/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Curly/Documents/GitHub/Impetus/build/CMakeFiles/ZERO_CHECK.dir
